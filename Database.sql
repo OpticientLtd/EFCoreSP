@@ -1,5 +1,4 @@
-﻿USE [EFCoreSP]
-GO
+﻿-- SQL Script for two tables with data and Stored Procedure.
 
 DROP PROCEDURE IF EXISTS [dbo].[GetEmployeesWithDepartment]
 GO

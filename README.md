@@ -24,6 +24,8 @@ These instructions will get you a copy of the project up and running on your loc
 #
 # Configurations
 
-* Create Database named "EFCoreSP".     
-* Execute "Database.sql" file available in solution folder.
+* Create new Database on SQL Server.
+	*	You can also use SQL Server local db "(localdb)\mssqllocaldb".
+* Execute "Database.sql" file available in "Solution Items" folder on that database.
+* Put connection string into appsettings.json (Section = "ConnectionStrings:EFCoreSPContext")
 * Build / Run the project.
